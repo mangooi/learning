@@ -24,6 +24,7 @@ public class Server {
                 serverThread.start();
                 InetAddress address=mSocket.getInetAddress();
                 System.out.println("IP:"+address.getHostAddress());
+
             }
             /*mSocket=mServerSocket.accept();
             br=new BufferedReader(new InputStreamReader(mSocket.getInputStream()));
@@ -34,6 +35,14 @@ public class Server {
             e.printStackTrace();
         }finally {
             mServerSocket.close();
+        }
+    }
+
+    public static void main(String[] args) {
+        try {
+            new Server().start();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }

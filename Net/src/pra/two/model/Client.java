@@ -9,15 +9,15 @@ import java.net.Socket;
 /**
  * Created by Administrator on 2016/8/20.
  */
-public class Clien {
+public class Client {
 
-    Socket socket;
+    private Socket socket;
 
-    PrintWriter writer;
+    private PrintWriter writer;
 
-    BufferedReader reader;
+    private BufferedReader reader;
 
-    BufferedReader reader_receive;
+    private BufferedReader reader_receive;
 
     String info;
 
@@ -43,5 +43,13 @@ public class Clien {
         }
 
 
+    }
+
+    public static void main(String[] args) {
+        try {
+            new Client().start();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
