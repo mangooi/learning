@@ -1,6 +1,7 @@
 package pra.two.model;
 
 import java.io.*;
+import java.net.InetAddress;
 import java.net.Socket;
 
 /**
@@ -14,6 +15,8 @@ public class ServerThread extends Thread{
 
     private String info;
 
+    private String address;
+
     private Socket mSocket=null;
     public ServerThread(Socket socket){
         mSocket=socket;
@@ -23,10 +26,15 @@ public class ServerThread extends Thread{
     public void run() {
         super.run();
         try {
+            address=mSocket.getInetAddress().getHostAddress();
             reader=new BufferedReader(new InputStreamReader(mSocket.getInputStream()));
             writer=new PrintWriter(new OutputStreamWriter(mSocket.getOutputStream()));
             while ((info = reader.readLine()) != null){
                 System.out.println(info);
+                if (info.equals("bye")){
+                    System.out.println("已和"+address+"断开连接");
+                }
+
             }
         } catch (IOException e) {
             e.printStackTrace();

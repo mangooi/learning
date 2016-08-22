@@ -23,7 +23,7 @@ public class Server {
                 ServerThread serverThread=new ServerThread(mSocket);
                 serverThread.start();
                 InetAddress address=mSocket.getInetAddress();
-                System.out.println("IP:"+address.getHostAddress());
+                System.out.println("已和"+address.getHostAddress()+"建立连接");
 
             }
             /*mSocket=mServerSocket.accept();
@@ -35,14 +35,6 @@ public class Server {
             e.printStackTrace();
         }finally {
             mServerSocket.close();
-        }
-    }
-
-    public static void main(String[] args) {
-        try {
-            new Server().start();
-        } catch (IOException e) {
-            e.printStackTrace();
         }
     }
 }

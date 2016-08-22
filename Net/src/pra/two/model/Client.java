@@ -10,6 +10,10 @@ import java.net.Socket;
  * Created by Administrator on 2016/8/20.
  */
 public class Client {
+    private String host;
+    public Client(String host){
+        this.host=host;
+    }
 
     private Socket socket;
 
@@ -19,18 +23,18 @@ public class Client {
 
     private BufferedReader reader_receive;
 
-    String info;
+    String info="";
 
     public void start() throws IOException {
         try {
-            socket=new Socket("127.0.0.1",2333);
+            socket=new Socket(host,2333);
             reader=new BufferedReader(new InputStreamReader(System.in));
             reader_receive=new BufferedReader(new InputStreamReader(socket.getInputStream()));
             writer=new PrintWriter(socket.getOutputStream(),true);
-            while (true){
+            while (!info.equals("bye")){
                 System.out.println("enter:");
-                String string=reader.readLine();
-                writer.println(string);
+                info =reader.readLine();
+                writer.println(info);
                 /*while ((info = reader_receive.readLine()) != null)
                     System.out.println(info);*/
             }
@@ -43,13 +47,5 @@ public class Client {
         }
 
 
-    }
-
-    public static void main(String[] args) {
-        try {
-            new Client().start();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 }
