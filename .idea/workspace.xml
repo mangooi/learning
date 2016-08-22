@@ -1,32 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74be623a-b6b8-4c22-9786-a23691adea84" name="Default" comment="nothing">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Net/src/NetFox/FileAccessI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Net/src/NetFox/FileSplitterFetch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Net/src/NetFox/SiteFileFetch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Net/src/NetFox/SiteInfoBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Net/src/NetFox/TestMethod.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Net/src/NetFox/Utility.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Net/src/com/example/demo/ClientDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Net/src/com/example/demo/ServerDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Net/src/com/example/demo/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Net/src/download/net/control/FileFetch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Net/src/download/net/control/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Net/src/download/net/model/FileDownload.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Net/src/download/net/model/FileInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Net/src/download/net/test/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Net/src/download/net/test/Test2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Net/src/pra/two/test/Client1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Net/src/pra/two/test/Client2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Net/src/pra/two/test/TServer.java" />
+    <list default="true" id="74be623a-b6b8-4c22-9786-a23691adea84" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Net/src/pra/two/model/Client.java" afterPath="$PROJECT_DIR$/Net/src/pra/two/model/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Net/src/pra/two/model/Server.java" afterPath="$PROJECT_DIR$/Net/src/pra/two/model/Server.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Net/src/pra/two/model/ServerThread.java" afterPath="$PROJECT_DIR$/Net/src/pra/two/model/ServerThread.java" />
     </list>
     <ignored path="IEDAProjects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,8 +37,8 @@
       <file leaf-file-name="FileFetch.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Net/src/download/net/control/FileFetch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            <state relative-caret-position="1320">
+              <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -824,7 +800,7 @@
       <workItem from="1471762613586" duration="22000" />
       <workItem from="1471776141957" duration="3689000" />
       <workItem from="1471824059553" duration="2259000" />
-      <workItem from="1471829897552" duration="9380000" />
+      <workItem from="1471829897552" duration="9464000" />
     </task>
     <task id="LOCAL-00001" summary="nothing">
       <created>1471708381264</created>
@@ -833,11 +809,18 @@
       <option name="project" value="LOCAL" />
       <updated>1471708381264</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="nothing0822">
+      <created>1471839306229</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1471839306229</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29152000" />
+    <option name="totallyTimeSpent" value="29236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -910,7 +893,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nothing" />
-    <option name="LAST_COMMIT_MESSAGE" value="nothing" />
+    <MESSAGE value="nothing0822" />
+    <option name="LAST_COMMIT_MESSAGE" value="nothing0822" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1306,8 +1290,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Net/src/download/net/control/FileFetch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        <state relative-caret-position="1320">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
