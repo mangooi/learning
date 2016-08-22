@@ -1,6 +1,6 @@
 package download.net.model;
 
-/**
+/**1
  * 文件信息
  * Created by Administrator on 2016/8/22.
  */

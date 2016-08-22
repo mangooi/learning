@@ -9,7 +9,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-/**
+/**11
  * 1.获取文件长度
  * 2.分割文件
  * 3.创建子线程-----启动子线程

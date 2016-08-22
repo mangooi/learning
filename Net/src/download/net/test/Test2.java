@@ -8,7 +8,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 /**
- * 测试获取文件大小
+ * 测试获取文件大小1
  * http://www.sjtu.edu.cn/down.zip
  * http://cdn.duitang.com/uploads/item/201403/01/20140301142145_kt5Gc.jpeg
  * 416 ERROR

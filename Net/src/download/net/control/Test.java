@@ -3,7 +3,7 @@ package download.net.control;
 import download.net.model.FileInfo;
 
 /**
- * 断点下载测试类
+ * 断点下载测试类11
  * http://i0.hdslb.com/group1/M00/B7/9A/oYYBAFd16ASAFbS4AAcNql6NOb8768.png
  * Created by Administrator on 2016/8/22.
  */
