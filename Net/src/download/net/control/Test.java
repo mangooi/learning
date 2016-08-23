@@ -9,7 +9,7 @@ import download.net.model.FileInfo;
  */
 public class Test {
     public Test(){
-        FileInfo fileInfo=new FileInfo("http://i0.hdslb.com/group1/M00/B7/9A/oYYBAFd16ASAFbS4AAcNql6NOb8768.png", "F:\\temp","4.png",10);
+        FileInfo fileInfo=new FileInfo("http://i0.hdslb.com/group1/M00/B7/9A/oYYBAFd156SAYMHlAACVIi6LP7o075.png", "E:\\temp","4.png",10);
         FileFetch fileFetch=new FileFetch(fileInfo);
         fileFetch.start();
     }

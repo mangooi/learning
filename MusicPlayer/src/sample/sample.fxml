@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" prefHeight="200.0" prefWidth="442.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.76-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints maxWidth="432.0" minWidth="432.0" prefWidth="432.0" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <TableView fx:id="tableView" prefHeight="200.0" prefWidth="570.0">
+        <columns>
+          <TableColumn fx:id="fileName" prefWidth="75.0" text="C1" />
+          <TableColumn fx:id="status" prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+   </children>
+</GridPane>

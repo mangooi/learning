@@ -29,7 +29,13 @@ public class ServerThread extends Thread{
             address=mSocket.getInetAddress().getHostAddress();
             reader=new BufferedReader(new InputStreamReader(mSocket.getInputStream()));
             writer=new PrintWriter(new OutputStreamWriter(mSocket.getOutputStream()));
-            while ((info = reader.readLine()) != null){
+            while (true){
+                info= reader.readLine();
+                if (info==null || info.equals("Bye")){
+                    writer.println("Bye!");
+                    System.out.println("断开连接");
+                    break;
+                }
                 System.out.println(info);
                 if (info.equals("bye")){
                     System.out.println("已和"+address+"断开连接");

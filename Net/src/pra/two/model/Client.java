@@ -10,31 +10,27 @@ import java.net.Socket;
  * Created by Administrator on 2016/8/20.
  */
 public class Client {
-    private String host;
-    public Client(String host){
-        this.host=host;
-    }
 
-    private Socket socket;
+    Socket socket;
 
-    private PrintWriter writer;
+    PrintWriter writer;
 
-    private BufferedReader reader;
+    BufferedReader reader;
 
-    private BufferedReader reader_receive;
+    BufferedReader reader_receive;
 
-    String info="";
+    String info;
 
     public void start() throws IOException {
         try {
-            socket=new Socket(host,2333);
+            socket=new Socket("127.0.0.1",2333);
             reader=new BufferedReader(new InputStreamReader(System.in));
             reader_receive=new BufferedReader(new InputStreamReader(socket.getInputStream()));
             writer=new PrintWriter(socket.getOutputStream(),true);
-            while (!info.equals("bye")){
+            while (true){
                 System.out.println("enter:");
-                info =reader.readLine();
-                writer.println(info);
+                String string=reader.readLine();
+                writer.println(string);
                 /*while ((info = reader_receive.readLine()) != null)
                     System.out.println(info);*/
             }
